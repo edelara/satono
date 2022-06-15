@@ -1,0 +1,18 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon row mx-0 navbar fixed-top"
+    data-controller="navbar"
+    data-action="scroll@window->navbar#updateNavbar">
+  <div class="navbar-left col-7 px-0">
+    <%= link_to( "/", class: "navbar-brand d-flex") do %>
+      <img src="https://res.cloudinary.com/dkh3jftp2/image/upload/v1655299282/development/Satono_Logo_wlmrmi.webp" alt="logo">
+    <% end %>
+  </div>
+  <div class="navbar-right col-5 px-0">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <%= link_to "Login", root_path, class: "nav-link" %>
+            </li>
+        </ul>
+    </div>
+  </div>
+</div>
