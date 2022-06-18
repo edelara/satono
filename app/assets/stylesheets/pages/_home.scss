@@ -7,13 +7,14 @@
 .banner {
   background-color: white;
   height: 100vh;
-  background-image: url("https://picsum.photos/200/300");
+  background-image: url("https://picsum.photos/1000/700");
   background-size: cover;
 }
 
 .banner-text {
   margin: 200px 60px;
   width: 600px;
+  color: white;
 }
 
 .banner-text > p {
@@ -27,11 +28,11 @@
 }
 
 .about-us {
-  padding: 100px 100px;
+  // padding: 100px 100px;
 }
 
 .about-us-text {
-  margin: 0 auto;
+  margin-top: 20px;
   padding: 0px 100px;
 }
 
