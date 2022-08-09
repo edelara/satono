@@ -1,5 +1,4 @@
 .container.home {
-  // margin: 10px 0px;
   max-width : 100%;
   padding: 0;
 }
@@ -7,7 +6,7 @@
 .banner {
   background-color: white;
   height: 100vh;
-  background-image: url("https://picsum.photos/1000/700");
+  background-image: url("/assets/berlin");
   background-size: cover;
 }
 
@@ -21,98 +20,78 @@
   margin: 25px 0px;
 }
 
-.services {
-  padding: 100px 0;
-  // width: 1300px;
-  margin: 0 auto;
-}
-
-.about-us {
-  // padding: 100px 100px;
-}
-
-.about-us-text {
-  margin-top: 20px;
-  padding: 0px 100px;
-}
-
-.trusted-by {
-  padding: 100px 100px;
-  background-color: white;
-}
-
-.trusted-by-text {
-  margin: 0 auto;
-  padding: 0px 100px;
-}
-
-.trusted-by-logos img {
-  border-radius: 50%;
-  width: 60px;
-  margin-top: 20px;
-}
-
-.services-cards {
-  margin: 80px;
-}
-
-.services-cards img {
-  width: 100px;
-}
-
-.services-cards-1 {
-  background-color: white;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
-  padding: 30px 50px;
-  border-radius: 2px;
-  width: 370px;
-}
-
-.services-cards-2 {
-  background-color: white;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
-  padding: 30px 50px;
-  border-radius: 2px;
-  width: 370px;
-}
-
-.services-cards-3 {
-  background-color: white;
-  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
-  padding: 30px 50px;
-  border-radius: 2px;
-  width: 370px;
-}
-
 .chevrons {
   font-size: 35px;
-  color: black;
+  color: white;
   position: absolute;
   top: 90%;
   left: 50%;
-  animation: bounce2 2s ease infinite;
-}
-@keyframes bounce2 {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
 }
 
-.dashboard-pictures {
-  padding: 100px;
+.chevrons > a {
+  color: white;
+}
+
+.about-us {
+  padding: 100px 0;
   text-align: center;
-  justify-content: center;
-  align-items: center;
+}
+
+.about-us > p {
+  margin-top: 50px;
+}
+
+
+.portfolio-type {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+}
+
+
+.portfolio {
+  padding: 100px 0;
+  text-align: center;
   background-color: white;
 }
 
-.dashboard-screenshots {
-  justify-content: center;
+.portfolio-cards {
+  margin-top: 50px;
   align-items: center;
 }
 
-.dashboard-pic {
-  width: 500px;
-  margin: 30px;
+.portfolio-card {
+  background-color: white;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.07);
+  padding: 30px 70px;
+  margin: 0px 50px 0px 50px;
+  border-radius: 2px;
+  width: 370px;
+}
+
+.chevron-right {
+  font-size: 35px;
+  color: #B2AEAF;
+  margin-right: 50px;
+}
+
+.contact {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact > p {
+  margin-top: 50px;
+}
+
+.linkedin {
+  color: #B2AEAF;
+  font-size: 30px;
+
+}
+
+.linkedin:hover {
+  color: black;
+
 }
